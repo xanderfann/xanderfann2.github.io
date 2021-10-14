@@ -1,0 +1,192 @@
+@media only screen and (max-width: 640px) { 
+	.schedule {
+		position: absolute;
+		left: 100px;
+	}
+	#name{
+		font-size: 300%;
+		line-height: 70px;
+	}
+	.header-selections{
+		display: none;
+	}
+	header img{
+    	display: block;
+    	float: right;
+    	width: 50px;
+    	position: relative;
+    	left: 600px;
+    	top: 50px;
+ 	}
+	.apple{
+		left: 100px;
+	}
+	.shadow{
+		left: 100px;
+	}
+	.info{
+		position: absolute;
+		left: 10%;
+		top: 800px;
+		width: 220% ;
+		font-size: 100%;
+		line-height: 30px;
+		text-align: center;
+		background-color: #F0F4FA;
+	}
+	.quote{
+		font-size: 500%;
+		float: right;
+		width: 100%;
+		text-align: right;
+		position: relative;
+		left: 500px;
+	}
+	.schedule{
+		position: relative;
+		left: 30%;
+		top: 300px;
+		padding: 50px;
+		background: none;
+	}
+	.scheduletext{
+	    left: 50%;
+	    width: 85%;
+	}
+	.scheduletext + iframe{
+	    right: 100px;
+  	}
+	.location{
+		width: 900px;
+		height: 600px;
+  		position: relative;
+  		left: 200;
+  		top: 900px;
+  		padding: 50px;
+  		background: #F0F4FA;
+  	}
+  	.map{
+  		left: 13%;
+  		float: left;
+  		margins: 50px;
+  		bottom: 700px;
+  	}
+	.search{
+  		width: 80%;
+  		right: 8%;
+  		bottom: 700px;
+  	}
+	.featured{
+		justify-content: flex-start;
+		position: relative;
+		top: 50px;
+	}
+	.applepie, .applecobbler, .applecrisp, .applesauce{
+		display: none;
+	}
+	.founder{
+		position: relative;
+		top: 300px;
+		background: none;
+	}
+	.joke{
+		left: 600px;
+		width: 100%;
+	}
+	footer{
+		float: none;
+		margin: 50px;
+	}
+} 
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+	body{
+     	margin: 0%;
+        max-width: 100%;
+	}
+	.quote{
+		font-size: 500%;
+		float: right;
+		width: 50%;
+		left: 100px;
+	}
+	.home, .info, .schedule, .location, .featured, .founder {
+		width: 100%
+	}
+	.info{
+		position: relative;
+		text-align: center;
+		top: 300px;
+		right: 0%;
+		width: 80% !important;
+		background-color: #F0F4FA;
+		border-radius: 20px;
+	}
+	.schedule{
+		height: 800px;
+		padding: 50px;
+		background: none;
+	}
+	.scheduletext{
+		position: relative;
+	    display: block;
+	    top: 200px;
+	    left: 10%;
+	}
+	.scheduletext + iframe{
+		position: relative;
+		display: flex;
+		align-content: center;
+  		top: 200px;
+	    right: 100px;
+  	}
+  	.location{
+  		position: relative;
+  		top: 800px;
+  		padding: 50px;
+  	}
+  	.search{
+  		width: 80%;
+  		right: 8%;
+  		bottom: 800px;
+  	}
+  	.search > p {
+   		left: 47%;
+	}
+  	.map{
+  		left: 20%;
+  		bottom: 800px;
+  		float: left;
+  		margins: 50px;
+  	}
+	.featured{
+		justify-content: flex-start;
+		margin-left: 2%;
+		position: relative;
+		top: 50px;
+	}
+	.applepie p {
+		position: relative;
+    	bottom: 75px;
+	}
+
+	.applecobbler p {
+		position: relative;
+    	bottom: 75px;
+  	}
+
+  	.applecrisp p {
+  		position: relative;
+    	bottom: 75px;
+ 	}
+
+  	.applesauce p {
+  		position: relative;
+    	bottom: 75px;
+  	}
+} 
+
+@media only screen and (min-width: 1025px) {
+	
+} 
+ 
